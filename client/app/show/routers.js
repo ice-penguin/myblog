@@ -1,19 +1,19 @@
-// (function () {
+(function () {
 
-//   'use strict';
+  'use strict';
 
-//   angular
-//     .module('myblogApp')
-//     .config(config);
+  angular
+    .module('myblogApp')
+    .config(config);
 
-//   /* @ngInject */
-//   function config($stateProvider) { 
-//     $stateProvider
-//     .state('index', {
-//       url: '/ff',
-//       templateUrl: 'app/show/index.html',
-//       controller: 'IndexCtrl'
-//     });
-//   }
+  /* @ngInject */
+  function config($stateProvider) { 
+    $stateProvider
+    .state('index', {
+      url: '/',
+      templateUrl: 'app/show/index.html',
+      controller: 'IndexCtrl'
+    });
+  }
 
-// })();  
+})();  
